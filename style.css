@@ -121,3 +121,50 @@ footer{
     gap: 10px;
     padding: 80px 0px;   
 }
+@media (max-width: 1300px)  {
+    .card{
+        flex-direction: column;
+        
+    }
+    .maintitle{
+        width: auto;
+        font-size: 80px ;
+    }
+    
+}
+@media (max-width: 930px)  {
+    .owl-carousel{
+        width: 400px;
+    }
+    .mainsec{
+        padding: 20px;
+    }
+    .cardimges{
+    width: 400px;
+    }
+    .maintitle{
+        font-size: 50px;
+    }
+    .mainsec{
+        height: 100vh;
+    }
+}
+@media (max-width: 530px){
+    .owl-carousel{
+        width: 300px;
+    }
+    .cardimges{
+        width: 300px;
+    }
+    .card{
+        padding: 10px;
+    }
+    nav{
+        display: none;
+    }
+.maintitle{
+    font-size: 30px;
+
+}
+
+}
